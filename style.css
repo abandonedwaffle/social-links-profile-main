@@ -26,17 +26,18 @@ img {
     text-align: center;
 }
 .nameContainer > p {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: hsl(75, 94%, 57%);
+    font-weight: 600;
 }
 .bio {
-    font-size: 14px;
+    font-size: 0.875rem;
     
 }
 .main-container {
     background-color: hsl(0, 0%, 12%);
     width: 300px;
-    height: 500px;
+    height: 520px;
     padding: 40px;
     border-radius: 25px;
 }
@@ -53,17 +54,19 @@ img {
     gap: 10px;
     margin-top: 10px;
 }
-button {
+a {
     padding: 15px 50px;
     font-weight: 700;
     background-color: hsl(0, 0%, 20%);
     color: white;
     border: none;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 0.875rem;
+    text-align: center;
+    text-decoration-style: none;
 }
 
-button:hover {
+a:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
     cursor: pointer;
